@@ -1,0 +1,29 @@
+{
+  "name"       : "pelmered/payiq-php",
+  "description": "",
+  "homepage"   : "https://github.com/pelmered/PayIQ-PHP",
+  "keywords"    : ["PayIQ"],
+  "type"       : "library",
+  "license"    : "GPL-2.0+",
+  "authors"     : [
+    {
+      "name"    : "PayIQ",
+      "email"   : "info@payiq.se",
+      "homepage": "http://payiq.se/"
+    },
+    {
+      "name"    : "Peter Elmered",
+      "email"   : "peter@elmered.com",
+      "homepage": "http://www.elmered.com"
+    }
+  ],
+  "support"     : {
+    "issues": "https://github.com/pelmered/PayIQ-PHP/issues"
+  },
+  "autoload": {
+    "psr-4": {"PayIQ\\": "src/"}
+  },
+  "require"    : {
+    "composer/installers": "~1.0"
+  }
+}
